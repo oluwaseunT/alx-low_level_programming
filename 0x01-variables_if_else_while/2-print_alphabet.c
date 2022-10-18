@@ -1,29 +1,18 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
- * main - Prints numbers between 00 to 99.
- * Return: Always 0 (Success)
+ * main - prints a lower case alphabets
+ * Return: 0
 */
 int main(void)
 {
-int i, e;
-i = 48;
-e = 48;
-while (e < 58)
+char c;
+c = 'a';
+while (c <= 'z')
 {
-i = 48;
-while (i < 58)
-{
-putchar(e);
-putchar(i);
-if (i == 57 && e == 57)
-{
-break;
-}
-putchar(',');
-putchar(' ');
-i++;
-}
-e++;
+putchar(c);
+c++;
 }
 putchar('\n');
 return (0);
