@@ -2,13 +2,11 @@
 
 /**
  * mul - multiplies two integers
- * @n - variable to be checked
  * @a - first integer
  * @b - second integer
- * Returns: n
+ * Returns: multiplication
 */
-int mul(int a, int b);
+int mul(int a, int b)
 {
-n = a * b;
-return (n);
+return (a * b);
 }
