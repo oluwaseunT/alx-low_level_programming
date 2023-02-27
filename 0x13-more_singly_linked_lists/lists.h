@@ -1,11 +1,6 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-/**
- * File: Lists.h
- * Auth: Muideen A Ilori
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
